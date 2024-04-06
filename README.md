@@ -60,4 +60,11 @@ ES7 React/Redux/GraphQL/React-Native snippets
     # react-icons
     # react-router-dom
     # json-server
+        npm install -D json-server : installing as dev dependency
+        also need to create json server with port, in package.json file     "server": "json-server --watch src/jobs.json --port 8000"
+ add this as script
+
+     # useEffect
+     
+       
 
