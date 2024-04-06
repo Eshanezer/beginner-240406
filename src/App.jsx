@@ -1,11 +1,20 @@
 import React from 'react'
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import HomeCards from './components/HomeCards';
+import JobListings from './components/JobListings';
+import ViewAllJobsButton from './components/ViewAllJobsButton';
 
 const App = () => {
   return (
-    <div>
-      APP
-    </div>
+    <>
+      <Navbar/>
+      <Hero/>
+      <HomeCards/>
+      <JobListings/>
+      <ViewAllJobsButton/>
+    </>
   )
 }
 
-export default App
+export default App;
