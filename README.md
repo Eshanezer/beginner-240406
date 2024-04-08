@@ -2,6 +2,7 @@
 
 # create react app using vite
   npm create vite@latest react-project-name
+  npm init vite@latest react-project-name -- --template     react
 
 # if you like to change base server port we can change using at vite.config.js
 
@@ -61,10 +62,14 @@ ES7 React/Redux/GraphQL/React-Native snippets
     # react-router-dom
     # json-server
         npm install -D json-server : installing as dev dependency
+
+    # react-spinners
+    # configure vite proxy
         also need to create json server with port, in package.json file     "server": "json-server --watch src/jobs.json --port 8000"
  add this as script
 
      # useEffect
+     # react-toastify
      
        
 
